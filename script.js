@@ -47,7 +47,7 @@ function generateCharset(){
  
   let specialCheck = window.confirm("do you want special characters (cancel for no)")
 
-  if(lowercaseCheck==false, uppercaseCheck==false, numberCheck==false, specialCheck==false){
+  if(lowercaseCheck==false && uppercaseCheck==false && numberCheck==false && specialCheck==false){
     window.alert("you must choose at least one character set!!")
     return generateCharset();
   }
